@@ -1,3 +1,5 @@
+package desafio.banco;
+
 public class Cliente {
 
     private String nome;
@@ -12,7 +14,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" +
+        return "desafio.banco.Cliente{" +
                 "nome='" + nome + '\'' +
                 '}';
     }

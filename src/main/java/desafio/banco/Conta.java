@@ -1,3 +1,5 @@
+package desafio.banco;
+
 public abstract class Conta implements IConta {
 
     protected int agencia;
@@ -32,7 +34,7 @@ public abstract class Conta implements IConta {
     }
 
     protected void infosComuns() {
-        System.out.println("Cliente: "+ this.client.getNome());
+        System.out.println("desafio.banco.Cliente: "+ this.client.getNome());
         System.out.println(String.format("Agencia: %d", this.agencia));
         System.out.println(String.format("numero: %d", this.numero));
         System.out.println(String.format("saldo: %.2f", this.saldo));
@@ -55,7 +57,7 @@ public abstract class Conta implements IConta {
 
     @Override
     public String toString() {
-        return "Conta{" +
+        return "desafio.banco.Conta{" +
                 "agencia=" + agencia +
                 ", numero=" + numero +
                 ", saldo=" + saldo +

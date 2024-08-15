@@ -1,3 +1,5 @@
+package desafio.banco;
+
 public class ContaPoupanca extends Conta {
 
     public ContaPoupanca(Cliente client) {
